@@ -2,9 +2,14 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
-    <Html lang="en">
-      <Head />
-      <body>
+    <Html>
+     <Head>
+     <link rel="preconnect" href="https://fonts.gstatic.com" />
+     <link 
+     href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kaushan+Script&family=Nunito+Sans&display=swap" 
+     rel="stylesheet"/>
+     </Head>
+      <body className="bg-fixed bg-gradient-to-r from-orange to-yellow ">
         <Main />
         <NextScript />
       </body>
