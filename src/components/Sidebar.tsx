@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react';
-import {GoLocation} from 'react-icons/go'
+import {GoLocation} from 'react-icons/go';
+import {ImWhatsapp} from 'react-icons/im'
 import { AiFillGithub, AiFillLinkedin, AiFillInstagram,AiOutlineDownload} from "react-icons/ai";
 const Sidebar = () => {
   return (
@@ -39,6 +40,14 @@ const Sidebar = () => {
         <a href="https://www.instagram.com/omniarafat33/">
           <AiFillInstagram className="w-8 h-8 cursor-pointer" />{" "}
         </a>
+        
+         
+          <a href="https://wa.me/2011111794465?text=Code%20Egypt">
+             <ImWhatsapp className="w-8 h-8 cursor-pointer" />{" "}
+            </a>
+
+          
+        
       </div>
 
       {/* Contacts */}
