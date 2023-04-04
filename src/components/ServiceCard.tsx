@@ -8,8 +8,8 @@ const ServiceCard:FunctionComponent<{service:Service}> = ({service:{Icon,about,t
         }
      }
     return (
-    <div className=' flex items-center p-2 space-x-5  mt-4 ' >
-        <Icon className='w-15 h-15 text-green '/>
+    <div className=' flex items-center  space-x-5  mt-4 ' >
+        <Icon className='w-16 h-16 text-green '/>
         <div className=''>
            <h4 className='font-bold'>{title}</h4>
            <p dangerouslySetInnerHTML={createMarkup()} />

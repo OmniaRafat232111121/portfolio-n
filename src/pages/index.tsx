@@ -8,10 +8,7 @@ const About=()=>{
     <>
     <div className="flex flex-col flex-grow px-6 pt-1 ">
      <h6 className="my-3 text-base font-medium">
-        I am currently pursuing B.Tech Degree(Final Year) in Computer Science
-        Engineering from Academy of Technology. I have 3+ years of experience in
-        Web Development and I have a Youtube Channel where I teach Full Stack
-        Web Development
+     I am a Computer Science graduate from Modern Academy with a GPA of 3.8. My passion for web development led me to pursue a track in this field, starting from level 2 with React JS and Laravel. Since then, I have honed my skills by working on various Shopify templates and taking up multiple freelancing projects. Through my experience, I have gained a deep understanding of the intricacies involved in web development and have developed the ability to create innovative solutions to complex problems.
       </h6>
       <div
         className="flex-grow 

@@ -5,3 +5,8 @@ export interface Service{
     about:string,
     Icon:IconType
 }
+export interface Skill{
+    name:string,
+    Icon:IconType,
+    level:string
+}
