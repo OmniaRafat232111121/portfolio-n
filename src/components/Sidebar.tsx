@@ -42,7 +42,7 @@ const Sidebar = () => {
         </a>
         
          
-          <a href="https://wa.me/2011111794465?text=Code%20Egypt">
+          <a href="https://wa.me/201111794465?text=Code%20Egypt">
              <ImWhatsapp className="w-8 h-8 cursor-pointer" />{" "}
             </a>
 
