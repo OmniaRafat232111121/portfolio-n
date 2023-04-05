@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { projects as projectsData } from "../../data";
 import { Category } from "../../type";
 import ProjectsNavbar from "@/components/ProjectsNavbar";
+import Head from "next/head";
 
 const Projects = () => {
   const [projects, setProjects] = useState(projectsData);
@@ -26,7 +27,10 @@ const Projects = () => {
   };
 
   return (
-    <div className="px-5 py-2 overflow-y-scroll scrollbar text-black" style={{ height: "65vh" }}>
+    <div className="px-5 py-2 overflow-y-scroll  text-black" style={{ height: "65vh" }}>
+      <Head>
+        <title>frontendDeveloper| omniarafat</title>
+      </Head>{""}
        <ProjectsNavbar
         handlerFilterCategory={handlerFilterCategory}
         active={active}

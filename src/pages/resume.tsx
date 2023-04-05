@@ -2,6 +2,7 @@ import React from 'react'
 import { languages } from '../../data'
 import Bar from '@/components/Bar'
 import {motion} from 'framer-motion'
+import Head from 'next/head'
 const resume = () => {
   const variants={
     initial:{
@@ -15,6 +16,9 @@ const resume = () => {
   }
   return (
     <div className='px-6 py-6 text-black'>
+      <Head>
+        <title>frontendDeveloper| omniarafat</title>
+      </Head>{""}
       {/*eduaction &&experience*/}
       <motion.div 
       initial="initial"
