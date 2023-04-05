@@ -6,7 +6,8 @@ import { useState } from 'react';
 import Image from "next/image";
 
 const ProjectCard:FunctionComponent<{
-    project:IProject
+    project:IProject,
+    key:string
 }> =({
 project:{
     name,
