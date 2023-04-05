@@ -10,7 +10,7 @@ const NavItem:FunctionComponent<{
     return active !== name ?(
 
         <Link href={route}>
-        <span className='mx-2 cursor-pointer hover:border-b-4 hover:text-green' 
+        <span className='mx-2 cursor-pointer hover:border-b-4 text-green' 
         onClick={()=>setActive(name)}>
                   {name}
         </span>
@@ -27,7 +27,7 @@ const Navbar = () => {
       else if (pathname === '/resume') setActive('Resume')
     }, []);
   return (
-    <div className='flex items-center justify-between px-5 py-3 my-3'>
+    <div className='flex items-center justify-between px-5 py-3 my-3  '>
       <span className='text-xl font-bold border-b-4 border-green text-green'
       >{active}</span>
       

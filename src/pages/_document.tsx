@@ -9,7 +9,7 @@ export default function Document() {
      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kaushan+Script&family=Nunito+Sans&display=swap" 
      rel="stylesheet"/>
      </Head>
-      <body className="bg-fixed bg-gradient-to-r from-orange to-yellow ">
+     <body className="bg-fixed bg-gradient-to-r from-green to-blue-500 dark:from-dark-500 dark:to-dark-700 ">
         <Main />
         <NextScript />
       </body>

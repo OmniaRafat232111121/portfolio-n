@@ -4,7 +4,7 @@ import Bar from '@/components/Bar'
 
 const resume = () => {
   return (
-    <div className='px-6 py-6'>
+    <div className='px-6 py-6 text-black'>
       {/*eduaction &&experience*/}
       <div className="grid gap-12 md:grid-cols-2">
         <div>
@@ -31,7 +31,7 @@ const resume = () => {
       </div>
 
       {/*lanaguage&tools*/}
-      <div className="grid gap-9  ">
+      <div className="grid gap-9 ">
         <div>
           <h5 className="my-3 text-2xl font-bold">Language & Framework</h5>
           <div className="my-2">
