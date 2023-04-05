@@ -28,7 +28,7 @@ project:{
       />
      <p className='my-2 text-center'>{name}</p>
      {showDetail && (
-        <div className="absolute top-0 left-0 z-10 grid w-full h-full  p-3 text-black bg-gray-400  rounded-md md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
+        <div className="absolute top-0 left-0 z-10 grid w-full h-auto  p-3 text-black bg-gray-400  rounded-md md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
           <div>
             
 

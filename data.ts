@@ -100,6 +100,18 @@ export const projects: IProject[] = [
       "An web app which with State Management , and fetching data from multiple sources using RapidAPI while building the best Cryptocurrency App.",
     key_techs: ["React", "axios",'AntDesign','react-chartjs-2',"Redux Toolkit"],
   },
+ 
+  {
+    id:'21',
+    name: "portfolio",
+    image_path: "/portfolio.jpg",
+    deployed_url: "https://portfolio-main-nu-seven.vercel.app/",
+    github_url: "https://github.com/OmniaRafat232111121/portfolio-maint",
+    category: ["react"],
+    description:
+      "An web app which Develop ,education an frontendDevelopment with features App.",
+    key_techs: ["React", "react-bootstrap"],
+  },
   {
     id:'3',
     name: "DisenyClone",
@@ -133,6 +145,17 @@ export const projects: IProject[] = [
     description:
       "",
     key_techs: ["Html", "css"],
+  },
+  {
+    id:'22',
+    name: "plantex website",
+    image_path: "/preview.png",
+    github_url:"https://github.com/OmniaRafat232111121/plantwebsite",
+    deployed_url:"https://plantwebsite23-pcmgyvpy2-omniarafat232111121.vercel.app/",
+    category: ["HTML&CSS"],
+    description:
+      "",
+    key_techs: ["Html", "css",'javascript'],
   },
 
   {
@@ -260,4 +283,5 @@ export const projects: IProject[] = [
     description:"landing page with Devlopemnt,markting...etc",
     key_techs: ["Html", "css", "javascript"],
   },
+ 
 ];
