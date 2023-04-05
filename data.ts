@@ -68,6 +68,7 @@ export const languages:Skill[]=[
 ]
 export const projects: IProject[] = [
   { 
+    id:'1',
     name: "Dashboard App",
     description:
       "This app shows a statistical view about corona virus over the world",
@@ -78,6 +79,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "react-apexcharts", "bootstrap",'formik','react-data-table-component','react-count-up'],
   },
   { 
+    id:'2',
     name: "Dashboard App",
     description:
       "This app login,register with authentication of api then protect routing to go to home  shows a statistical view about corona virus over the world",
@@ -88,6 +90,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "tailwindcss",'formik','api','redux-toolkit','react-count-up'],
   },
   {
+    id:'20',
     name: "CryptoCurrency",
     image_path: "/CryptoCurrency.jpg",
     deployed_url: "https://cryptocurrency-one.vercel.app/",
@@ -98,6 +101,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "axios",'AntDesign','react-chartjs-2',"Redux Toolkit"],
   },
   {
+    id:'3',
     name: "DisenyClone",
     image_path: "/diseny.jpg",
     github_url:"https://github.com/OmniaRafat232111121/Diseny_Clone",
@@ -108,6 +112,7 @@ export const projects: IProject[] = [
     key_techs: ["react", "firebase",'api'],
   },
   {
+   id:'4',
     name: "Gym",
     image_path: "/gym.jpg",
     github_url:"https://github.com/OmniaRafat232111121/gymme-landing",
@@ -119,6 +124,7 @@ export const projects: IProject[] = [
   },
   
   {
+    id:'5',
     name: "coffe",
     image_path: "/coffe.jpg",
     github_url:"https://github.com/OmniaRafat232111121/Coffe_landing",
@@ -130,6 +136,7 @@ export const projects: IProject[] = [
   },
 
   {
+    id:'6',
     name: "Twitch Game",
     image_path: "/Twitch.jpg",
     deployed_url: "https://twitch-nextjs-tailwind.vercel.app/",
@@ -146,6 +153,7 @@ export const projects: IProject[] = [
   },
 
   {
+    id:'7',
     name: "DatePickerCalender",
     image_path: "/Date.jpg",
     deployed_url: "https://data-currency-picker-rf8z6mrh7-omniarafat232111121.vercel.app/",
@@ -158,6 +166,7 @@ export const projects: IProject[] = [
 
 
   {
+    id:'8',
     name: "Tatto",
     image_path: "/tatto.jpg",
     deployed_url: "https://tattoo-teal.vercel.app/",
@@ -169,6 +178,7 @@ export const projects: IProject[] = [
   },
 
   {
+    id:'9',
     name: "Tic tac toe",
     image_path: "/game.jpg",
     deployed_url: "https://tic-tac-pfrst0z63-omniarafat232111121.vercel.app/",
@@ -179,6 +189,7 @@ export const projects: IProject[] = [
     key_techs: ["Express", "react", "Typescript"],
   },
   {
+    id:'10',
     name: "Hotel reservation room",
     image_path: "/hotel.jpg",
     deployed_url: "https://hotelland.vercel.app/",
@@ -195,6 +206,7 @@ export const projects: IProject[] = [
     ],
   },
   {
+    id:'11',
     name: "DigitalProductivity Agency",
     image_path: "/agency.jpg",
     github_url:"https://github.com/OmniaRafat232111121/prouctivelanding",
@@ -205,6 +217,7 @@ export const projects: IProject[] = [
     key_techs: ["next", "css"],
   },
   {
+    id:'12',
     name: "Shoppingcart",
     image_path: "/shopping.jpg",
     github_url:"https://github.com/OmniaRafat232111121/shoppingCart",
@@ -216,6 +229,7 @@ export const projects: IProject[] = [
   },
  
   {
+    id:'13',
     name: "Blog",
     image_path: "/Blog.jpg",
     github_url:"https://github.com/OmniaRafat232111121/StaticBlogand-MarkDown/tree/main/blog",
@@ -226,6 +240,7 @@ export const projects: IProject[] = [
     key_techs: ["next", "react"],
   },
   {
+    id:'14',
     name: "notes",
     image_path: "/notes.jpg",
     github_url:"https://github.com/OmniaRafat232111121/notes",
@@ -236,6 +251,7 @@ export const projects: IProject[] = [
     key_techs: ["react", "redux-toolkit",'typescriot','Bootstrap'],
   },
   {
+    id:'15',
     name: "Desinic",
     image_path: "/Design.jpg",
     deployed_url: "https://agency-ten-rho.vercel.app/",

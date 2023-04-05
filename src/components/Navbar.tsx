@@ -25,7 +25,7 @@ const Navbar = () => {
       if(pathname ==="/") setActive('About')
       else if (pathname === '/projects') setActive('Projects')
       else if (pathname === '/resume') setActive('Resume')
-    }, []);
+    }, [pathname]);
   return (
     <div className='flex items-center justify-between px-5 py-3 my-3  '>
       <span className='text-xl font-bold border-b-4 border-green text-green'

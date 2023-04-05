@@ -12,6 +12,7 @@ export interface Skill{
 }
 export interface IProject {
     name: string;
+    id:string;
     description: string;
     image_path: string;
     deployed_url: string;

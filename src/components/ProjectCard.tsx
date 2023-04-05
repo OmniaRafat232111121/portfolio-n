@@ -17,7 +17,6 @@ project:{
     const [showDetail,setShowDetail]=useState(false);
   return (
     <div className='text-black'>
-     {/* <img src={image_path} alt={name} className='cursor-pointer' onClick={()=>setShowDetail(true)}/> */}
      <Image
         src={image_path}
         alt={name}
