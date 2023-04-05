@@ -1,12 +1,25 @@
 import React from 'react'
 import { languages } from '../../data'
 import Bar from '@/components/Bar'
-
+import {motion} from 'framer-motion'
 const resume = () => {
+  const variants={
+    initial:{
+      opacity:0,
+      y:60
+    },
+    animate:{
+      opacity:1,
+      y:0,
+    }
+  }
   return (
     <div className='px-6 py-6 text-black'>
       {/*eduaction &&experience*/}
-      <div className="grid gap-12 md:grid-cols-2">
+      <motion.div 
+      initial="initial"
+      animate="animate"
+      variants={variants} className="grid gap-12 md:grid-cols-2">
         <div>
           <h5 className="my-3 text-2xl font-bold">Education</h5>
           <div className="">
@@ -19,6 +32,9 @@ const resume = () => {
               from Modern Academy from GPA 3.8
             </p>
           </div>
+
+          
+
         </div>
         <div>
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
@@ -28,7 +44,7 @@ const resume = () => {
           <p className=' my-3'>Works on Dashboards and Developments</p>
           </div>
         </div>
-      </div>
+      </motion.div>
 
       {/*lanaguage&tools*/}
       <div className="grid gap-9 ">

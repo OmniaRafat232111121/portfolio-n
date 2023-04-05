@@ -283,5 +283,39 @@ export const projects: IProject[] = [
     description:"landing page with Devlopemnt,markting...etc",
     key_techs: ["Html", "css", "javascript"],
   },
+  {
+    id:'26',
+    name: "templatelandingPage",
+    image_path: "/template2.png",
+    github_url:"https://github.com/OmniaRafat232111121/template2",
+    deployed_url:"https://template2-dusky.vercel.app/",
+    category: ["HTML&CSS"],
+    description:
+      "",
+    key_techs: ["Html", "css"],
+  },
+  {
+    id:'17',
+    name: "templatelandingPage",
+    image_path: "/template3.png",
+    github_url:"https://github.com/OmniaRafat232111121/template3",
+    deployed_url:"https://template3-iota.vercel.app/",
+    category: ["HTML&CSS"],
+    description:
+      "",
+    key_techs: ["Html", "css"],
+  },
+  {
+    id:'19',
+    name: "Dashboard",
+    image_path: "/Daashboard.png",
+    github_url:"https://github.com/OmniaRafat232111121/dashbboard",
+    deployed_url:"https://dashbboard.vercel.app/#",
+    category: ["HTML&CSS"],
+    description:
+      "",
+    key_techs: ["Html", "css"],
+  },
+ 
  
 ];

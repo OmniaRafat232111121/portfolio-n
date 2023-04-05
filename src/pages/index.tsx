@@ -1,8 +1,31 @@
 import ServiceCard from '@/components/ServiceCard';
 import { services } from '../../data'
 // import { GetServerSideProps, GetServerSidePropsContext } from 'next';
+import {motion} from 'framer-motion'
 
 const About=()=>{
+   const variants={
+    initial:{
+      opacity:0,
+      y:60
+    },
+    animate:{
+      opacity:1,
+      y:0,
+    }
+  }
+  const container = {
+    hidden: { opacity: 1, scale: 0 },
+    visible: {
+      opacity: 1,
+      scale: 0.9,
+      transition: {
+        delayChildren: 0.5,
+        staggerChildren: 0.2
+      }
+    }
+  };
+  
   console.log('Client' ,services)
   return (
     <>
@@ -21,7 +44,11 @@ const About=()=>{
       <h4 className="my-3 text-xl font-semibold tracking-wide ">
           What I am doing
         </h4>
-        <div className='grid gap-6  my-3 lg:grid-cols-2  '>
+        <motion.div 
+     initial="hidden"
+     animate="visible"
+     
+      variants={container} className='grid gap-6  my-3 lg:grid-cols-2  '>
           {services.map(service=>(
             <div 
             className='lg:col-span-1 p-2 bg-gray-200   rounded-lg
@@ -32,7 +59,7 @@ const About=()=>{
           
           )
           )}
-        </div>
+        </motion.div>
       </div>
      </div>
     </>
