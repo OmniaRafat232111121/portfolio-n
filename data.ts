@@ -316,6 +316,27 @@ export const projects: IProject[] = [
       "",
     key_techs: ["Html", "css"],
   },
- 
+  {
+    id:'33',
+    name: "foodApp",
+    image_path: "/food.png",
+    github_url:"https://github.com/OmniaRafat232111121/foodWeb",
+    deployed_url:"https://food-web-iota.vercel.app/",
+    category: ["react"],
+    description:
+      "",
+    key_techs: ["react", "firebase","framer-motion","tailwind-scrollbar"],
+  },
+  {
+    id:'34',
+    name: "Datewarhouse",
+    image_path: "/House.png",
+    github_url:"https://github.com/OmniaRafat232111121/data-warehouse",
+    deployed_url:"https://data-warehouse-one.vercel.app/",
+    category: ["react"],
+    description:
+      "Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others.",
+    key_techs: ["react", "tailwindcss","framer-motion",],
+  },
  
 ];
