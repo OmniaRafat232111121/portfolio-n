@@ -97,6 +97,37 @@ export const projects: IProject[] = [
       "An web app which with State Management , and fetching data from multiple sources using RapidAPI while building the best Cryptocurrency App.",
     key_techs: ["React", "axios",'AntDesign','react-chartjs-2',"Redux Toolkit"],
   },
+  {
+    name: "DisenyClone",
+    image_path: "/diseny.jpg",
+    github_url:"https://github.com/OmniaRafat232111121/Diseny_Clone",
+    deployed_url:"https://diseny-clone-dzlelgyo4-omniarafat232111121.vercel.app/",
+    category: ["react"],
+    description:
+      "diseny with login with firebase,fetching movie from api",
+    key_techs: ["react", "firebase",'api'],
+  },
+  {
+    name: "Gym",
+    image_path: "/gym.jpg",
+    github_url:"https://github.com/OmniaRafat232111121/gymme-landing",
+    deployed_url:"https://gymme-landing.vercel.app/",
+    category: ["react"],
+    description:
+      "",
+    key_techs: ["react", "tailwindcss"],
+  },
+  
+  {
+    name: "coffe",
+    image_path: "/coffe.jpg",
+    github_url:"https://github.com/OmniaRafat232111121/Coffe_landing",
+    deployed_url:"https://coffe-landing.vercel.app/",
+    category: ["HTML&CSS"],
+    description:
+      "",
+    key_techs: ["Html", "css"],
+  },
 
   {
     name: "Twitch Game",
@@ -182,6 +213,17 @@ export const projects: IProject[] = [
     description:
       "SHooping cart with increment,decrement,clear items",
     key_techs: ["react", "redux-toolkit"],
+  },
+ 
+  {
+    name: "Blog",
+    image_path: "/Blog.jpg",
+    github_url:"https://github.com/OmniaRafat232111121/StaticBlogand-MarkDown/tree/main/blog",
+    deployed_url:"https://static-blog-five.vercel.app/",
+    category: ["next"],
+    description:
+      "next with routing ",
+    key_techs: ["next", "react"],
   },
   {
     name: "notes",

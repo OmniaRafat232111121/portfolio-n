@@ -20,4 +20,4 @@ export interface IProject {
     key_techs: string[];
   }
   
-  export type Category = "next" |"react" | "javascript"|"React&typescript"| "html&css" ;
+  export type Category = "next" |"react" | "javascript"|"React&typescript"| "HTML&CSS" ;
