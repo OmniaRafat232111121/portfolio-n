@@ -338,5 +338,16 @@ export const projects: IProject[] = [
       "Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others.",
     key_techs: ["react", "tailwindcss","framer-motion",],
   },
+  {
+     id:'35',
+    name: "Dorsin",
+    image_path: "/dorsin.png",
+    github_url:"https://github.com/OmniaRafat232111121/Dorsin",
+    deployed_url:"https://dorsin-iota.vercel.app/",
+    category: ["react"],
+    description:"landing page of dorsin that containing services,team,pricing of all category",
+    key_techs: ["react", "Bootstrap",'css'],
+
+  }
  
 ];
