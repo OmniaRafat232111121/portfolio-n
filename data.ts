@@ -349,5 +349,16 @@ export const projects: IProject[] = [
     key_techs: ["react", "Bootstrap",'css'],
 
   }
+  {
+    id:'36',
+   name: "Nike",
+   image_path: "/nike.png",
+   github_url:"https://github.com/OmniaRafat232111121/niki",
+   deployed_url:"https://niki-pi.vercel.app/",
+   category: ["next"],
+   description:"Ecommerce",
+   key_techs: ["next ", "tailwindcss"],
+
+ }
  
 ];
