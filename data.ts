@@ -383,6 +383,18 @@ export const projects: IProject[] = [
   key_techs: ["HTML ", "CSS","javascript"],
 
 
+
+},{
+  id: '39',
+  name: "Chat",
+  image_path: "/chat.png",
+  github_url: "https://github.com/OmniaRafat232111121/chat",
+  deployed_url: "https://chat-eta-puce.vercel.app/",
+  category: ["react"],
+  description: "",
+  key_techs: ["react  ","socket.io", "CSS","chat-engine"],
+
+
 }
  
 ];
