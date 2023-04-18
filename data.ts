@@ -395,6 +395,18 @@ export const projects: IProject[] = [
   key_techs: ["react  ","socket.io", "CSS","chat-engine"],
 
 
+},
+{
+  id: '40',
+  name: "ecommerce",
+  image_path: "/ecommerce.png",
+  github_url: "https://github.com/OmniaRafat232111121/ecommerce-next",
+  deployed_url: "https://store-ecommerce-green.vercel.app/",
+  category: ["next"],
+  description: "",
+  key_techs: ["next","sanity","react","CSS"],
+
+
 }
  
 ];
