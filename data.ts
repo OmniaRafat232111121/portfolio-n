@@ -78,17 +78,7 @@ export const projects: IProject[] = [
     category: ["react"],
     key_techs: ["React", "react-apexcharts", "bootstrap", 'formik', 'react-data-table-component', 'react-count-up'],
   },
-  {
-    id: '41',
-    name: "SpecialDesign",
-    description:
-      "This app shows a statistical view about corona virus over the world",
-    image_path: "/specialDesign.png",
-    deployed_url: "https://dashboard-a-uth.vercel.app/",
-    github_url: "https://github.com/OmniaRafat232111121/specialDesign",
-    category: ["react"],
-    key_techs: ["React", "react-apexcharts", "bootstrap", 'formik', 'react-data-table-component', 'react-count-up'],
-  },
+  
   {
     id: '2',
     name: "Dashboard App",
@@ -420,6 +410,16 @@ export const projects: IProject[] = [
   key_techs: ["next","sanity","react","CSS"],
 
 
-}
+},{
+  id: '41',
+  name: "SpecialDesign",
+  description:
+    "",
+  image_path: "/specialDesign.png",
+  deployed_url: "https://special-design-psi.vercel.app/",
+  github_url: "https://github.com/OmniaRafat232111121/specialDesign",
+  category: ["react"],
+  key_techs: ["React", "react-apexcharts", "bootstrap", 'formik', 'react-data-table-component', 'react-count-up'],
+},
  
 ];
