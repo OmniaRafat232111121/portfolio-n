@@ -402,7 +402,7 @@ export const projects: IProject[] = [
 {
   id: '40',
   name: "ecommerce",
-  image_path: "/ecomm.png",
+  image_path: "/ecommerce.png",
   github_url: "https://github.com/OmniaRafat232111121/ecommerce-next",
   deployed_url: "https://store-ecommerce-green.vercel.app/",
   category: ["next"],
@@ -416,22 +416,21 @@ export const projects: IProject[] = [
   description:
     "",
   image_path: "/specialDesign.png",
-  deployed_url: "https://ecom-pi-five.vercel.app/",
-  github_url: "https://github.com/OmniaRafat232111121/Ecom",
-  category: ["react"],
-  key_techs: ["React", "API" ,"react-helmet", "bootstrap", 'formik', 'yup', 'react-slick'],
-},
-,{
-  id: '42',
-  name: "Ecommerce",
-  description:
-    "",
-  image_path: "/ECOM.png",
   deployed_url: "https://special-design-psi.vercel.app/",
   github_url: "https://github.com/OmniaRafat232111121/specialDesign",
   category: ["react"],
-  key_techs: ["React", "API" ,"react-helmet", "bootstrap", 'formik', 'yup', 'react-slick'],
-
+  key_techs: ["React", "react-apexcharts", "bootstrap", 'formik', 'react-data-table-component', 'react-count-up'],
+},
+{
+  id: '42',
+  name: "ECOMMERCEAPI",
+  description:
+    "",
+  image_path: "/ECOM.png",
+  deployed_url: "https://ecom-pi-five.vercel.app/",
+  github_url: "https://github.com/OmniaRafat232111121/Ecom",
+  category: ["react"],
+  key_techs: ["React", "react-slick", "bootstrap", 'formik','yup', 'react-hemelt', 'API'],
 },
  
 ];
