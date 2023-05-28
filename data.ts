@@ -432,5 +432,27 @@ export const projects: IProject[] = [
   category: ["react"],
   key_techs: ["React", "react-slick", "bootstrap", 'formik','yup', 'react-hemelt', 'API'],
 },
+{
+  id: '43',
+  name: "DOGAPI",
+  description:
+    "",
+  image_path: "/ECOM.png",
+  deployed_url: "https://dog-livid.vercel.app/",
+  github_url: "https://github.com/OmniaRafat232111121/dog",
+  category: ["react"],
+  key_techs: ["React","CSS" ,'API'],
+},
+{
+  id: '44',
+  name: "Clinic",
+  description:
+    "",
+  image_path: "/clinic.png",
+  deployed_url: "https://clinic-amber.vercel.app/",
+  github_url: "https://github.com/OmniaRafat232111121/clinic/tree/master",
+  category: ["react"],
+  key_techs: ["React","tailwindcss" ,'API'],
+},
  
 ];
