@@ -437,7 +437,7 @@ export const projects: IProject[] = [
   name: "DOGAPI",
   description:
     "",
-  image_path: "/ECOM.png",
+  image_path: "",
   deployed_url: "https://dog-livid.vercel.app/",
   github_url: "https://github.com/OmniaRafat232111121/dog",
   category: ["react"],
@@ -453,6 +453,17 @@ export const projects: IProject[] = [
   github_url: "https://github.com/OmniaRafat232111121/clinic/tree/master",
   category: ["react"],
   key_techs: ["React","tailwindcss" ,'API'],
+},
+{
+  id: '45',
+  name: "portfolio-framermotion",
+  description:
+    "",
+  image_path: "/screen.png",
+  deployed_url: "https://next-js-developer-portfolio-starter-code-nine.vercel.app/",
+  github_url: "https://github.com/OmniaRafat232111121/Next.js-Developer-Portfolio-Starter-Code",
+  category: ["next"],
+  key_techs: ["React","tailwindcss" ,'framer-motion'],
 },
  
 ];
