@@ -112,7 +112,18 @@ export const projects: IProject[] = [
     deployed_url: "https://website-fe-sp.vercel.app/",
     github_url: "",
     category: ["next"],
-    key_techs: ["React","tailwindcss" ,'framer-motion'],
+    key_techs: ["React","tailwindcss" ,'framer-motion','ts'],
+  },
+  {
+    id: '48',
+    name: "Ecommerce planing soultion",
+    description:
+      "",
+    image_path: "/plan.jpg",
+    github_url: "https://github.com/OmniaRafat232111121/ecommerce-planingSoultion",
+    deployed_url: "https://ecommerce-planing-soultion.vercel.app/",
+    category: ["next"],
+    key_techs: ["React","tailwindcss" ,'framer-motion','ts'],
   },
   {
     id: '46',
@@ -123,7 +134,7 @@ export const projects: IProject[] = [
     deployed_url: "https://timetec-kucr.vercel.app/",
     github_url: "https://github.com/OmniaRafat232111121/timetec",
     category: ["next"],
-    key_techs: ["React","tailwindcss" ,'framer-motion'],
+    key_techs: ["React","tailwindcss" ,'framer-motion','ts'],
   },
 
   {
