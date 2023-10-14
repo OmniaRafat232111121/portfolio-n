@@ -102,7 +102,32 @@ export const projects: IProject[] = [
     key_techs: ["React", "axios", 'AntDesign', 'react-chartjs-2', "Redux Toolkit"],
   },
 
+
   {
+    id: '47',
+    name: "systehema",
+    description:
+      "",
+    image_path: "/ss.jpg",
+    deployed_url: "https://website-fe-sp.vercel.app/",
+    github_url: "",
+    category: ["next"],
+    key_techs: ["React","tailwindcss" ,'framer-motion'],
+  },
+  {
+    id: '46',
+    name: "Timetechnology",
+    description:
+      "",
+    image_path: "/time.jpg",
+    deployed_url: "https://timetec-kucr.vercel.app/",
+    github_url: "https://github.com/OmniaRafat232111121/timetec",
+    category: ["next"],
+    key_techs: ["React","tailwindcss" ,'framer-motion'],
+  },
+
+  {
+
     id: '21',
     name: "portfolio",
     image_path: "/portfolio.jpg",
@@ -465,5 +490,6 @@ export const projects: IProject[] = [
   category: ["next"],
   key_techs: ["React","tailwindcss" ,'framer-motion'],
 },
+
  
 ];
