@@ -132,7 +132,7 @@ export const projects: IProject[] = [
       "",
     image_path: "/Beb.jpg",
     github_url: "https://github.com/OmniaRafat232111121/Bebo",
-    deployed_url: "",
+    deployed_url: "https://bebebyon-92g8qe9jh-omniarafat232111121.vercel.app/",
     category: ["next"],
     key_techs: ["React","tailwindcss" ,'wow','ts'],
   },
