@@ -126,6 +126,17 @@ export const projects: IProject[] = [
     key_techs: ["React","tailwindcss" ,'framer-motion','ts'],
   },
   {
+    id: '49',
+    name: "Landing Agency page",
+    description:
+      "",
+    image_path: "/AgencyReact.jpg",
+    github_url: "https://github.com/OmniaRafat232111121/AgencyReact",
+    deployed_url: "https://agency-react-eta.vercel.app/",
+    category: ["next"],
+    key_techs: ["React","tailwindcss" ,'framer-motion','ts'],
+  },
+  {
     id: '46',
     name: "Timetechnology",
     description:
