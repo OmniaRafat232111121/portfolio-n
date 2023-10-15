@@ -126,6 +126,17 @@ export const projects: IProject[] = [
     key_techs: ["React","tailwindcss" ,'framer-motion','ts'],
   },
   {
+    id: '50',
+    name: "Bebyon Brand page",
+    description:
+      "",
+    image_path: "/Beb.jpg",
+    github_url: "https://github.com/OmniaRafat232111121/Bebo",
+    deployed_url: "",
+    category: ["next"],
+    key_techs: ["React","tailwindcss" ,'wow','ts'],
+  },
+  {
     id: '49',
     name: "Landing Agency page",
     description:
